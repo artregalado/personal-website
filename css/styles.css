@@ -1,0 +1,94 @@
+/* HTML Tags */
+h1 {
+  color: #D5D8DC;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  color: #D5D8DC;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Landing section */
+
+.navbar-custom {
+  background-color: #263238;
+}
+
+.navbar-brand {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: #D5D8DC;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.title-row {
+  padding: 5%;
+}
+
+.presentation-text{
+  margin-right: 30%;
+}
+
+#title-landing {
+  background-color: #263238;
+}
+
+#profile-pic {
+  border-radius: 100%;
+}
+
+/* Experience section*/
+#my-experience {
+  background-color: #9e9d24;
+  padding: 3%;
+}
+
+#my-experience .col-lg-12 {
+  padding: 3%;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
+#my-experience h1 {
+  color: black;
+  padding-bottom: 2.5rem;
+}
+
+.btn-tab-experience {
+  color: white;
+  background-color: #263238;
+}
+
+.tab-pane.fade {
+  padding-top: 3%;
+}
+
+.nav.nav-tabs {
+  border-color: #263238;
+}
+
+/* Latest posts section*/
+#recent-posts {
+  background-color: #263238;
+  padding: 5%;
+}
+
+#recent-posts h1 {
+  color: black;
+  padding-bottom: 2.5rem;
+}
+
+.blogs-row{
+  padding: 2%;
+}
+
+.card{
+  padding: 3%;
+}

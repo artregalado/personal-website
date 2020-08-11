@@ -3,49 +3,175 @@
 
 <head>
   <meta charset="utf-8">
+  <title>Arturo Regalado - Energy Economist</title>
   <meta name="description" content="Personal website for Arturo Regalado - Energy Economist. You will find oil and gas market analysis and Decommissioning
   insights in the UKCS">
-  <title>📊 Arturo Regalado - Energy Economist</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/a900ac23c8.js" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td><img src="https://pbs.twimg.com/profile_images/1099750947084034050/7r8hBa6W_400x400.png" alt="Profile <picture></picture>" height="200" width="200"></td>
-      <td>
-        <h1>Arturo Regalado</h1>
-        <p><em>Energy Economist and Data Analyst</em></p>
-        <p>I am a petroleum economist and data analyst with more than five years of experience in processing and interpreting data to give actionable insights <br> for decision makers in the oil and gas industry. My professional interest remains in the analysis
-        of oil and gas markets through the application of data science techniques.<br> I specialise in modelling and forecasting oil demand-supply and prices as well as in financial modelling and project valuation of upstream activity. </p>
-      </td>
-    </tr>
-  </table>
-<hr>
-  <h3>Education</h3>
-  <ul>
-    <li>MSc PEEF in Petroleum Energy Economics and Finance, <a href="https://www.abdn.ac.uk/">University fo Aberdeen</a></li>
-    <li>Bachelor of Economics, <a href="https://www.unam.mx/">Mexico's National Autonomous University</a></li>
-  </ul>
-<hr>
-  <h3>Interests</h3>
-  <ol>
-    <li>Oil and gas markets</li>
-    <li>Decommissioning</li>
-  </ol>
-  <h3><a href="posts.html">Insights and commentary</a></h3>
-  <h3><a href="contact.html">Contact me</a></h3>
-<hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>Oil market analysis ★★★★★</td> <td>R★★★☆☆</td>
-    </tr>
-    <tr>
-      <td>Decommissioning ★★★★★</td> <td>Python★★★★☆</td>
-    </tr>
-  </table>
+
+  <section id="title-landing">
+
+    <div class="container">
+      <!-- Navbar -->
+
+      <nav class="navbar  navbar-expand-lg navbar-dark navbar-custom">
+        <a class="navbar-brand" href="#">Arturo Regalado - Energy Economist</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class nav-item>
+              <a class="nav-link" href="#">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Contact me</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Landging section -->
+
+      <div class="row justify-content-center title-row">
+        <div class="d-flex align-items-center flex-wrap">
+
+          <div class="col-lg-6 d-flex justify-content-start">
+            <img id="profile-pic" src="https://pbs.twimg.com/profile_images/1099750947084034050/7r8hBa6W_400x400.png" alt="profil-pic">
+          </div>
+
+          <div class="col-lg-6 d-flex justify-content-start flex-wrap">
+            <div class="presentation-text">
+              <h1>Hello! I am Arturo</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere sit amet orci non tincidunt. Donec facilisis sem arcu, ac dictum tellus ullamcorper vel. Nunc eget nisl pharetra orci convallis tempus. Fusce et facilisis
+                ligula.
+                Ut
+                porttitor ex non elit interdum lobortis. Integer metus nisl, blandit at metus vel, sagittis.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- My Experience section-->
+  <section id="my-experience">
+    <div class="container">
+      <h1>Experience</h1>
+
+      <!-- Tab Section-->
+      <div class="col-lg-12">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link btn-tab-experience" id="oilgas-tab" data-toggle="tab" href="#oilgas" role="tab" aria-controls="oilgas" aria-selected="true">Oil & Gas Market Analysis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-tab-experience" id="decommissioning-tab" data-toggle="tab" href="#decommissioning" role="tab" aria-controls="decommissioning" aria-selected="false">Offshore Decommissioning Economics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-tab-experience" id="teaching-data-tab" data-toggle="tab" href="#teaching-data" role="tab" aria-controls="teaching-data" aria-selected="false">Teaching Data Analysis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-tab-experience" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Education</a>
+          </li>
+        </ul>
+        <!-- Contents of the tabs Section-->
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="oilgas" role="tabpanel" aria-labelledby="oilgas-tab">
+            <h1>Test 1</h1>
+          </div>
+          <div class="tab-pane fade" id="decommissioning" role="tabpanel" aria-labelledby="decommissioning-tab">
+            <h1>Test 2</h1>
+          </div>
+          <div class="tab-pane fade" id="teaching-data" role="tabpanel" aria-labelledby="teaching-data-tab">
+            <h1>Test 3</h1>
+          </div>
+          <div class="tab-pane fade" id="education" role="tabpane" aria-labelledby="education-tab">
+            <h1>Test 4</h1>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
 
+  </section>
+
+  <section id="recent-posts">
+    <div class="container">
+      <div class="row justify-content-center blogs-row">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact-me">
+
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
