@@ -1,11 +1,12 @@
 /* HTML Tags */
 h1 {
-  color: #D5D8DC;
+  color: black;
+  padding-bottom: 2.5rem;
   font-family: "Lato", sans-serif;
 }
 
 p {
-  color: #D5D8DC;
+  color: black;
   font-family: "Roboto", sans-serif;
 }
 
@@ -35,35 +36,40 @@ p {
   margin-right: 30%;
 }
 
+.profile-pic {
+  border-radius: 100%;
+  width: 70%;
+}
+
 #title-landing {
   background-color: #263238;
 }
 
-#profile-pic {
-  border-radius: 100%;
+#title-landing h1, p {
+  color: #fff;
 }
+
+
 
 /* Experience section*/
 #my-experience {
-  background-color: #9e9d24;
   padding: 3%;
+}
+
+#my-experience p{
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 #my-experience .col-lg-12 {
   padding: 3%;
-  border-style: solid;
-  border-color: black;
-  border-width: thin;
-}
-
-#my-experience h1 {
-  color: black;
-  padding-bottom: 2.5rem;
 }
 
 .btn-tab-experience {
   color: white;
-  background-color: #263238;
+  font-family: "Roboto", sans-serif;
+  background-color: #263238 ;
 }
 
 .tab-pane.fade {
@@ -74,15 +80,51 @@ p {
   border-color: #263238;
 }
 
-/* Latest posts section*/
-#recent-posts {
-  background-color: #263238;
-  padding: 5%;
+.testimonial-pictures {
+  border-radius: 100%;
+  margin: 25px;
+  width: 22%;
 }
 
-#recent-posts h1 {
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 66px;
+  color: #9e9d24;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 66px;
+  color: #9e9d24;
+}
+
+
+#myTabExperience a:hover {
+  color: #9e9d24;
+}
+
+#myTabExperience a:focus {
   color: black;
-  padding-bottom: 2.5rem;
+  background-color: #9e9d24;
+}
+
+/* Latest posts section*/
+#recent-posts {
+  padding: 5%;
 }
 
 .blogs-row{
@@ -91,4 +133,31 @@ p {
 
 .card{
   padding: 3%;
+margin-bottom: 2rem;
+}
+
+/* Contact me section*/
+#contact-me {
+  padding: 3%;
+  background-color: #9e9d24;
+}
+
+#contact-me a{
+  color: #263238;
+}
+
+.contact-cards {
+text-align: center;
+}
+
+.contact-cards h3 {
+  font-family: "Lato", sans-serif;
+}
+
+.media-icon {
+  margin-bottom: 1rem;
+}
+
+.media-icon:hover {
+  color: white;
 }
