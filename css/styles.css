@@ -70,7 +70,11 @@ p {
   padding: 3%;
 }
 
-#my-experience p{
+#my-experience h2 {
+  font-family: "Lato", sans-serif;
+}
+
+#my-experience p, h5{
   color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -93,8 +97,18 @@ p {
   padding-top: 3%;
 }
 
+.tab-content {
+  margin-top: 1.5rem;
+  border-top: 4px solid #9e9d24;
+}
+
 .nav.nav-tabs {
-  border-color: #263238;
+  border-color: white;
+}
+
+.testimonial-course-img {
+  width: 65%;
+  border-radius: 25%;
 }
 
 .testimonial-pictures {
