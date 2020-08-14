@@ -93,6 +93,11 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+#my-experience .btn-default:hover{
+  background-color: #9e9d24;
+  color: black;
+}
+
 .tab-pane.fade {
   padding-top: 3%;
 }
@@ -114,7 +119,7 @@ p {
 .testimonial-pictures {
   border-radius: 100%;
   margin: 25px;
-  width: 22%;
+  width: 15%;
 }
 
 .carousel-item {
@@ -140,11 +145,6 @@ p {
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 66px;
-  color: #9e9d24;
-}
-
-
-#myTabExperience a:hover {
   color: #9e9d24;
 }
 
