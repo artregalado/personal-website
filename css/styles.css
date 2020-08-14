@@ -42,13 +42,26 @@ p {
   width: 70%;
 }
 
+.title-icons {
+  color: #9e9d24;
+}
+
 #title-landing {
   background-color: #263238;
 }
 
 #title-landing h1, p {
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
+
+.fa-ul li {
+  padding-left: 5%;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+
 
 
 
